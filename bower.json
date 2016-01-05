@@ -1,0 +1,32 @@
+{
+  "name": "elevation",
+  "description": "A front-end framework for developing responsive, mobile first projects on the web.",
+  "keywords": [
+    "css",
+    "js",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "homepage": "https://github.com/dww510/el",
+  "license": "MIT",
+  "moduleType": "globals",
+  "main": [
+    "scss/el.scss",
+    "dist/js/el.js"
+  ],
+  "ignore": [
+    "/.*",
+    "composer.json",
+    "CONTRIBUTING.md",
+    "docs",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.9.1 - 2",
+    "tether": "^1.1.1"
+  }
+}

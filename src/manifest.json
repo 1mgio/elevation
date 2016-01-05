@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/util.js",
+        "scripts/alert.js",
+        "scripts/button.js",
+        "scripts/carousel.js",
+        "scripts/collapse.js",
+        "scripts/dropdown.js",
+        "scripts/modal.js",
+        "scripts/tooltip.js",
+        "scripts/popover.js",
+        "scripts/scrollspy.js",
+        "scripts/tab.js",
+        "scripts/affix.js"
+      ],
+      "main": true
+    },
+    "el.css": {
+      "files": [
+        "styles/el.scss"
+      ],
+      "main": true
+    }
+  },
+  "config": {
+    "devUrl": "http://2.cms.dev"
+  }
+}
