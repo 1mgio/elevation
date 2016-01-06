@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "elevation.js": {
+      "files": [
+        "scripts/util.js",
+        "scripts/alert.js",
+        "scripts/button.js",
+        "scripts/carousel.js",
+        "scripts/collapse.js",
+        "scripts/dropdown.js",
+        "scripts/modal.js",
+        "scripts/tooltip.js",
+        "scripts/popover.js",
+        "scripts/scrollspy.js",
+        "scripts/tab.js"
+      ],
+      "main": true
+    },
+    "elevation.css": {
+      "files": [
+        "styles/elevation.scss"
+      ],
+      "main": true
+    }
+  }
+}

@@ -21,10 +21,10 @@ var sourcemaps   = require('gulp-sourcemaps');
 var uglify       = require('gulp-uglify');
 
 // See https://github.com/austinpray/asset-builder
-var manifest = require('asset-builder')('./src/manifest.json');
+var manifest = require('asset-builder')('./assets/manifest.json');
 
 // `path` - Paths to base asset directories. With trailing slashes.
-// - `path.source` - Path to the source files. Default: `src/`
+// - `path.source` - Path to the source files. Default: `assets/`
 // - `path.dist` - Path to the build directory. Default: `dist/`
 var path = manifest.paths;
 
@@ -116,7 +116,7 @@ var cssTasks = function(filename) {
     })
     .pipe(function() {
       return gulpif(enabled.maps, sourcemaps.write('.', {
-        sourceRoot: 'src/styles/'
+        sourceRoot: 'assets/styles/'
       }));
     })();
 };
@@ -144,7 +144,7 @@ var jsTasks = function(filename) {
     })
     .pipe(function() {
       return gulpif(enabled.maps, sourcemaps.write('.', {
-        sourceRoot: 'src/scripts/'
+        sourceRoot: 'assets/scripts/'
       }));
     })();
 };
@@ -259,7 +259,7 @@ gulp.task('watch', function() {
   gulp.watch([path.source + 'scripts/**/*'], ['jshint', 'scripts']);
   gulp.watch([path.source + 'fonts/**/*'], ['fonts']);
   gulp.watch([path.source + 'images/**/*'], ['images']);
-  gulp.watch(['bower.json', 'src/manifest.json'], ['build']);
+  gulp.watch(['bower.json', 'assets/manifest.json'], ['build']);
 });
 
 // ### Build
