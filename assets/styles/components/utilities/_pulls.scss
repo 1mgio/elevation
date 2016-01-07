@@ -1,17 +1,13 @@
-// Elevation pulls
-
-@mixin elevation-pulls {
-  @each $breakpoint in map-keys($grid-breakpoints) {
-    @include media-breakpoint-up($breakpoint) {
-      .pull-#{$breakpoint}-left {
-        @include pull-left();
-      }
-      .pull-#{$breakpoint}-right {
-        @include pull-right();
-      }
-      .pull-#{$breakpoint}-none {
-        float: none !important;
-      }
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    .pull-#{$breakpoint}-left {
+      @include pull-left();
+    }
+    .pull-#{$breakpoint}-right {
+      @include pull-right();
+    }
+    .pull-#{$breakpoint}-none {
+      float: none !important;
     }
   }
 }

@@ -22,15 +22,15 @@ $font-size-h4:               1.5rem !default;
 $font-size-h5:               1.25rem !default;
 $font-size-h6:               1rem !default;
 
-$display1-size:              6rem !default;
-$display2-size:              5.5rem !default;
-$display3-size:              4.5rem !default;
-$display4-size:              3.5rem !default;
+$display1-size:               6rem !default;
+$display2-size:               5.5rem !default;
+$display3-size:               4.5rem !default;
+$display4-size:               3.5rem !default;
 
-$display1-weight:            300 !default;
-$display2-weight:            300 !default;
-$display3-weight:            300 !default;
-$display4-weight:            300 !default;
+$display1-weight:             300 !default;
+$display2-weight:             300 !default;
+$display3-weight:             300 !default;
+$display4-weight:             300 !default;
 
 $line-height:                1.5 !default;
 
@@ -43,31 +43,31 @@ $headings-color:             inherit !default;
 $lead-font-size:             1.25rem !default;
 $lead-font-weight:           300 !default;
 
-$text-muted:                 $gray-light !default;
+$text-muted:                  $gray-light !default;
 
-$abbr-border-color:          $gray-light !default;
+$abbr-border-color:           $gray-light !default;
 
-$blockquote-small-color:     $gray-light !default;
-$blockquote-font-size:       ($font-size-base * 1.25) !default;
-$blockquote-border-color:    $gray-lighter !default;
+$blockquote-small-color:      $gray-light !default;
+$blockquote-font-size:        ($font-size-base * 1.25) !default;
+$blockquote-border-color:     $gray-lighter !default;
 
-$hr-border-color:            rgba(0,0,0,.1) !default;
-$hr-border-width:            $border-width !default;
+$hr-border-color:             rgba(0,0,0,.1) !default;
+$hr-border-width:             $border-width !default;
 
-$dt-font-weight:             bold !default;
+$dt-font-weight:              bold !default;
 
-$nested-kbd-font-weight:     bold !default;
+$nested-kbd-font-weight:      bold !default;
 
-$list-inline-padding:        5px !default;
+$list-inline-padding:         5px !default;
 
 // Code
-$code-color:                 #bd4147 !default;
-$code-bg:                    #f7f7f9 !default;
+$code-color:                  #bd4147 !default;
+$code-bg:                     #f7f7f9 !default;
 
-$kbd-color:                  #fff !default;
-$kbd-bg:                     #333 !default;
+$kbd-color:                   #fff !default;
+$kbd-bg:                      #333 !default;
 
-$pre-bg:                     #f7f7f9 !default;
-$pre-color:                  $gray-dark !default;
-$pre-border-color:           #ccc !default;
-$pre-scrollable-max-height:  340px !default;
+$pre-bg:                      #f7f7f9 !default;
+$pre-color:                   $gray-dark !default;
+$pre-border-color:            #ccc !default;
+$pre-scrollable-max-height:   340px !default;

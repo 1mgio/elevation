@@ -1,16 +1,11 @@
-// Elevation screenreaders
+//
+// Screenreaders
+//
 
-@mixin elevation-screenreaders {
+.sr-only {
+  @include sr-only();
+}
 
-  // TODO: consolidate small util files
-  //
-  // Screenreaders
-  .sr-only {
-    @include sr-only();
-  }
-
-  .sr-only-focusable {
-    @include sr-only-focusable();
-  }
-
+.sr-only-focusable {
+  @include sr-only-focusable();
 }
