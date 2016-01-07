@@ -1,11 +1,8 @@
-@mixin clearfix() {
-  &::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
+// Elevation clearfix
 
-.clearfix {
-  @include clearfix();
+@mixin elevation-clearfix {
+  // TODO: consolidate small util files
+  .clearfix {
+    @include clearfix();
+  }
 }

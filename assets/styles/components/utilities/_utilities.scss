@@ -1,3 +1,5 @@
+// Elevation utilities base
+
 @import "background";
 @import "animation";
 @import "clearfix";
@@ -8,3 +10,20 @@
 @import "spacing";
 @import "text";
 @import "visibility";
+
+// Include all utilities
+@mixin elevation-utilities {
+
+  @include elevation-background;
+  @include elevation-animation;
+  @include elevation-clearfix;
+  @include elevation-close;
+  @include elevation-pulls;
+  @include elevation-responsive-embed;
+  @include elevation-screenreaders;
+  @include elevation-spacing;
+  @include elevation-text;
+  @include elevation-visibility;
+
+}
+

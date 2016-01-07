@@ -1,23 +1,29 @@
-.breadcrumb {
-  padding: $breadcrumb-padding-y $breadcrumb-padding-x;
-  margin-bottom: $spacer-y;
-  list-style: none;
-  background-color: $breadcrumb-bg;
-  @include border-radius($border-radius);
-  @include clearfix;
-}
+// Elevation Breadcrumb Base
 
-.breadcrumb-item {
-  float: left;
+@mixin elevation-breadcrumb {
 
-  + .breadcrumb-item::before {
-    padding-right: $breadcrumb-item-padding;
-    padding-left: $breadcrumb-item-padding;
-    color: $breadcrumb-divider-color;
-    content: "#{$breadcrumb-divider}";
+  .breadcrumb {
+    padding: $breadcrumb-padding-y $breadcrumb-padding-x;
+    margin-bottom: $spacer-y;
+    list-style: none;
+    background-color: $breadcrumb-bg;
+    @include border-radius($border-radius);
+    @include clearfix;
   }
 
-  &.active {
-    color: $breadcrumb-active-color;
+  .breadcrumb-item {
+    float: left;
+
+    + .breadcrumb-item::before {
+      padding-right: $breadcrumb-item-padding;
+      padding-left: $breadcrumb-item-padding;
+      color: $breadcrumb-divider-color;
+      content: "#{$breadcrumb-divider}";
+    }
+
+    &.active {
+      color: $breadcrumb-active-color;
+    }
   }
+
 }
